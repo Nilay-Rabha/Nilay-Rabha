@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nilay Jyoti Rabha | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="progress-bar"></div>
+
+
+    <!-- Navbar -->
+    <nav>
+        <h2 class="logo">Portfolio</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="dark-toggle">🌙</button>
+
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="home">
+        <h1>Hello, I'm <span id="typing"></span></h1>
+        <p>Web Developer | Learner | Tech Enthusiast</p>
+        <button onclick="scrollToSection()">Hire Me</button>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="fade-in">
+        <h2>About Me</h2>
+        <p>
+            I am a beginner web developer learning HTML, CSS, and JavaScript.
+            I enjoy building simple, clean, and responsive websites.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="fade-in">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>JavaScript</div>
+            <div>Git & GitHub</div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="fade-in">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="card">
+                <h3>Portfolio Website</h3>
+                <p>Personal portfolio using HTML, CSS, JS</p>
+            </div>
+            <div class="card">
+                <h3>Calculator</h3>
+                <p>Basic calculator using JavaScript</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="fade-in">
+        <h2>Blog</h2>
+        <p class="blog-subtitle">Sharing what I learn as I grow in tech</p>
+
+        <!-- BLOG SEARCH INPUT (ADD HERE) -->
+        <input type="text" id="blog-search" placeholder="Search blogs..." />
+
+        <div class="blog-container">
+
+            <div class="blog-card">
+
+
+                <h3>How I Started Learning Web Development</h3>
+                <small>Jan 2025 • Web Development</small>
+
+                <p class="blog-preview">
+                    My journey into web development started with curiosity and confusion.
+                </p>
+
+                <p class="blog-full hidden">
+                    I started learning web development because I wanted to understand how websites actually work.
+                    Initially, everything felt confusing—HTML tags, CSS properties, layouts.
+
+                    I began with HTML to understand structure. It helped me realize that every website
+                    is just a structured document. Then I moved to CSS, where I learned how layouts,
+                    colors, and responsiveness work.
+
+                    The biggest challenge was consistency. Some days I felt stuck, but building small
+                    projects helped me gain confidence.
+
+                    Right now, I am improving my JavaScript skills and learning how to make websites
+                    interactive and user-friendly.
+                </p>
+
+                <button class="read-btn">Read More</button>
+            </div>
+
+            <div class="blog-card">
+
+
+                <h3>Why JavaScript Is Important for Web Developers</h3>
+<small>Feb 2025 • JavaScript</small>
+
+<p class="blog-preview">
+    JavaScript is what makes websites interactive and dynamic.
+</p>
+
+<p class="blog-full hidden">
+    JavaScript allows developers to control logic on the client side.
+    With JavaScript, websites can respond to user actions like clicks,
+    form submissions, and scrolling.
+
+    I learned that JavaScript is not just about syntax, but about thinking logically.
+    Debugging errors taught me patience and problem-solving skills.
+
+    JavaScript is used everywhere—from simple websites to complex applications.
+    Learning it properly opens many opportunities in frontend and full-stack development.
+</p>
+
+                
+                <button class="read-btn">Read More</button>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- Contact -->
+    <section id="contact" class="fade-in">
+        <h2>Contact Me</h2>
+        <p>Email: nilaycodeonly@email.com</p>
+        <p>LinkedIn | GitHub</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Nilay Jyoti Rabha. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
