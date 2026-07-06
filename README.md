@@ -1,4 +1,5 @@
-## Hi there 👋
+## About NiLay Jyoti Rabha
+  *persuing bsc in computer science
 
 <!--
 **Nilay-Rabha/Nilay-Rabha** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
