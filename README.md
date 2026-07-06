@@ -1,6 +1,6 @@
 ## About NiLay Jyoti Rabha
   *persuing bsc in computer science
-  *Interested in AI Ml , Remote sensing & GIS .
+  *Interested in AI ML , Remote sensing & GIS .
   
 
 <!--
